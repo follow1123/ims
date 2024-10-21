@@ -12,6 +12,10 @@
 
 ### 直接下载
 
+```cmd
+curl -O https://github.com/follow1123/ims/releases/download/latest/ims.exe
+```
+
 ### 手动编译
 
 * 安装`mingw`环境
@@ -26,6 +30,6 @@ make
 
 ## 使用
 
-* `ims.exe` - 获取当前输入法模式，`1`：中文，`2`：英文
+* `ims.exe` - 获取当前输入法模式，`1`：英文，`2`：中文
 * `ims.exe 1` - 切换到英文模式
 * `ims.exe 2` - 切换到中文模式
